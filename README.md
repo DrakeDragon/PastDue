@@ -4,8 +4,6 @@
 
 > The planet missed its rent. Your building is now a dungeon. You are the night maintenance tech, and the whole universe is watching you try to get out.
 
-Play it here: *(paste your GitHub Pages link)*
-
 ---
 
 ## What it is
@@ -59,30 +57,3 @@ A full playthrough runs for many hours. Fights are quick, so most of that time i
 ## Content notes
 
 Mostly comic fantasy. Contains cartoon violence, workplace and bureaucratic satire, mild language, and some sad and emotional scenes about loss, grief and forgiveness. No graphic content.
-
-## Hosting on GitHub Pages
-
-1. Create a public repository on GitHub.
-2. Upload `index.html` to the root of the repository.
-3. Go to **Settings > Pages**, choose **Deploy from a branch**, pick `main` and `/ (root)`, and save.
-4. After a minute or two your game is live at `https://YOUR-USERNAME.github.io/YOUR-REPO/`.
-5. To update the game, upload a new `index.html` over the old one. Players may need to refresh once or twice to see the new version.
-
-Everything runs in the browser. There is no server, no account, and no tracking. Progress is saved only on each player's own device.
-
-## Technical notes
-
-- A single self-contained HTML file with no frameworks and no build step needed to play
-- Loads four Google Fonts, and falls back to system fonts offline
-- Saves progress to the browser's local storage
-- The source is in `source/src` for editing. With Node.js installed, run `node build.js` to rebuild the game and `node validate.js` to check that every story link works
-
-## Credits
-
-Story, design and System narration by Tim, built with Claude.
-
-Inspired by the LitRPG genre, and by every landlord who ever said "I'll get to it this week."
-
----
-
-*Management would like to remind you that rent is due. Management would also like to remind you that you may pay when able.*
